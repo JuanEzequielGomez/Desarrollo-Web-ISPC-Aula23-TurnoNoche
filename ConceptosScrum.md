@@ -1,12 +1,15 @@
 # Desarrollo-Web-ISPC-Aula23-TurnoNoche
-Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitale
+Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales
 
-#Cuales son las ceremonias en Scrum
+# Cuales son las ceremonias en Scrum
 
-Reunion de planificacion del sprint
-Reunion periodic
-Reunion de revision del Sprint
+Reunion de planificacion del Sprint
+
+Reunion periodica
+
+Reunion de revision de Sprint
+
 Reunion de retrospectiva del Sprint
 
 
-Son
+
