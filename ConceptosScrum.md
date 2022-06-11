@@ -11,5 +11,10 @@ Reunion de revision de Sprint
 
 Reunion de retrospectiva del Sprint
 
+# Cuales son los artefactos de Scrum
+Pila de l producto (Product Backlog)
 
+Pila del Sprint (Sprint Backlog)
+
+Incremento (Incremen)
 
