@@ -1,0 +1,14 @@
+INSERT INTO perro (ID_Perro,Nombre, Fecha_nac, sexo, DNI_Dueño
+	)
+VALUES ("15","fido", "15-03-2022","macho","39754033"); 
+DELETE FROM perro where ID_Perro = "0";
+select * from historial where fecha like "2022%";
+update historial
+set Fecha_nac= "15-03-2022"
+where ID_Perro = "15";
+
+UPDATE `peluqueria_canina`.`historial` SET `monto` = '1500' WHERE (`id` = '1');
+insert  into historial(
+	id, fecha, descripción, monto
+)
+values("1","2022-03-04","pelo blanco","1500");
