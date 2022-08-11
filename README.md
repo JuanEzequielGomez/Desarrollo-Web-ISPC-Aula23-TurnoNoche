@@ -82,7 +82,7 @@ D. Subir Script .sql con todos los puntos mencionados a rama del GitHub grupal
 Dado el siguiente modelo de BD de una peluquería canina, responda las siguiente preguntas:
 
 
-
+![](assets/images/script_sql.png)
 
 
 Realice la consulta correspondiente para crear la tabla Perro, teniendo en cuenta sus claves foráneas y primarias.
