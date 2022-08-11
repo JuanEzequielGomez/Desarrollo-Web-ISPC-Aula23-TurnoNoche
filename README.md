@@ -2,7 +2,7 @@
 
 # Introducción a la Programación
 
-Escribir el código en Python que permita realizar lo siguiente:
+Escribir el código en Python que permita realizar alguna de las siguientes consignas:
 
 **1)** Crear una lista en Python denominada “Dueno” que contenga los siguientes valores:
 
@@ -68,7 +68,7 @@ Ordenarla alfabéticamente y mostrarla por pantalla.
 
 Subir un script SQL que constará, de la creación de la base de datos con sus tablas y los datos necesarios en las mismas, para poder realizar una consulta a elección (de los propuestos desde el Nro 3 al 12).
 
-**PASOS:
+**PASOS:**
 
 **A.** Crear Base de Datos y Tablas según Modelo Relacional.
 
