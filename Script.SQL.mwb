@@ -1,8 +1,53 @@
+CREATE TABLE `Dueño`
+(
+ `DNI`       integer NOT NULL ,
+ `nombre`    varchar(100) NOT NULL ,
+ `apellido`  varchar(100) NOT NULL ,
+ `telefono`  varchar(50) NOT NULL ,
+ `direccion` varchar(45) NOT NULL ,
+
+PRIMARY KEY (`DNI`)
+);
+CREATE TABLE `Historial`
+(
+ `ID_Historial` integer NOT NULL ,
+ `fecha`        date NOT NULL ,
+ `descripción`  text NOT NULL ,
+ `monto`        int NOT NULL ,
+ `perro`        integer NOT NULL ,
+
+PRIMARY KEY (`ID_Historial`),
+KEY `FK_2` (`perro`),
+CONSTRAINT `FK_2` FOREIGN KEY `FK_2` (`perro`) REFERENCES `Perro` (`ID_Perro`)
+);
+
+CREATE TABLE `Perro`
+(
+ `ID_Perro`  integer NOT NULL ,
+ `Nombre`    varchar(100) NOT NULL ,
+ `Fecha_nac` date NOT NULL ,
+ `sexo`      varchar(45) NOT NULL ,
+ `DNI_Dueño` integer NOT NULL ,
+
+PRIMARY KEY (`ID_Perro`),
+KEY `FK_2` (`DNI_Dueño`),
+CONSTRAINT `FK_1` FOREIGN KEY `FK_2` (`DNI_Dueño`) REFERENCES `Dueño` (`DNI`)
+);
+
+
+
+
+
+
+
+
+
 INSERT INTO perro (ID_Perro,Nombre, Fecha_nac, sexo, DNI_Dueño
 	)
-VALUES ("15","fido", "15-03-2022","macho","39754033"); 
+VALUES ('15',"fido", "14-03-2022","macho","39754033"); 
 DELETE FROM perro where ID_Perro = "0";
 select * from historial where fecha like "2022%";
+
 update historial
 set Fecha_nac= "15-03-2022"
 where ID_Perro = "15";
