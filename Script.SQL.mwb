@@ -41,13 +41,14 @@ CONSTRAINT `FK_1` FOREIGN KEY `FK_2` (`DNI_Dueño`) REFERENCES `Dueño` (`DNI`)
 
 
 
-
+##Ejercicio 3:
 INSERT INTO perro (ID_Perro,Nombre, Fecha_nac, sexo, DNI_Dueño
 	)
 VALUES ('15',"fido", "14-03-2022","macho","39754033"); 
 DELETE FROM perro where ID_Perro = "0";
 select * from historial where fecha like "2022%";
 
+## ejercico 12
 update historial
 set Fecha_nac= "15-03-2022"
 where ID_Perro = "15";
